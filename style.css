@@ -1,0 +1,262 @@
+html{
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    word-break: normal;
+    tab-size: 4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Shippori mincho", serif;
+    font-size: 16px;
+    line-height: 1,5;
+    max-width: 1440px;
+    background-color: #faf7f0;
+}
+
+:after, :before {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    height: 150px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+header .gna
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-left h1{
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.header-right{
+    padding-top: 45px;
+    float: right;
+    padding-right: 50px;
+}
+
+.nav1 li{
+    float: left;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.wrapper{
+    max-width: 960px;
+    padding: 0 4%;
+    margin: 0 auto ;
+    font-size: 0.9rem;
+}
+
+#syasin img {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+section {
+    display: block;
+}
+
+.zikosyoukai{
+    max-width: 960px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #444444;
+}
+
+h1 {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.syoukai{
+    max-width: 640px;
+    margin: 70px auto 0 auto;
+
+}
+
+.profile-text {
+    text-align: center;
+}
+
+.profile-name{
+    padding-bottom: 20px;
+}
+
+.fsz {
+    font-size: 1.5rem;
+}
+
+.about{
+    max-width: 960px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 65px;
+    border-bottom: solid 1px #444444;
+}
+
+.about-message{
+    text-align: center;
+    box-sizing: inherit;
+}
+
+h2 {
+    font-size: 0.9rem;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about-message dl {
+    margin: 0 0 15px;
+    padding: 0 10px 10px;
+    text-align: left;
+}
+
+dt {
+    display: block;
+}
+
+.about-message dl dt {
+    float: left;
+    width: 11em;
+    padding: 10px 0;
+    font-weight: bold;
+    line-height: 150%;
+    margin: 0;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.about-message dl dd {
+    margin: 0;
+    padding: 10px 10px 10px 11em;
+    line-height: 150%;
+    border-bottom: 1px #cccccc dotted;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.photo ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.photo li {
+    width: 32%;
+}
+
+.photo img {
+    max-width: 100%;
+    border-style: none;
+}
+
+.catalog-antique {
+    max-width: 960px;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.catalog-antique .flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog-antique .item {
+    width: 70%;
+    text-align: center;
+}
+.catalog-antique .item2 {
+    width: 26%;
+    text-align: center;
+}
+
+.sec-title {
+    height: 35px;
+    display: inline-block;
+    align-items: center;
+    border-bottom: solid 2px grey;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#footer {
+    background-color: #24292e;
+    color: #ffffff;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+    text-align: center;
+}
